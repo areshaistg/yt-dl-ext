@@ -1,5 +1,5 @@
 async function get_file_url() {
-    const url = "http://localhost:6969/mp3?" + document.location.href;
+    const url = "http://localhost:32945/mp3?" + document.location.href;
     return await fetch(url, {
 	method: "GET",
 	mode: "no-cors",

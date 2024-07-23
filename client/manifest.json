@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "yt-dl",
+    "version": "1.0",
+
+    "description": "download yt videos",
+
+    "icons": {
+	"48": "icons/down-48.png"
+    },
+
+    "content_scripts": [
+	{
+	    "matches": ["*://*.youtube.com/*"],
+	    "js": ["main.js"]
+	}
+    ]
+}
